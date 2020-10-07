@@ -1,0 +1,91 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff">
+
+    <PreferenceCategory>
+        <Preference
+            android:enabled="true"
+            android:selectable="true"
+            android:title="User name"
+            app:allowDividerBelow="true"
+            app:iconSpaceReserved="false" />
+        <Preference
+            app:key="LoginOrRegister"
+            android:enabled="true"
+            android:selectable="true"
+            android:title="Login or Register"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:enabled="true"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:selectable="true"
+            android:title="Notifications"
+            app:allowDividerAbove="true" />
+        <ListPreference
+            app:allowDividerAbove="true"
+            android:entryValues="@array/text_values"
+            app:defaultValue="textsize"
+            app:enabled="true"
+            app:entries="@array/text_entries"
+            app:icon="@drawable/ic_baseline_text_fields_24"
+            app:key="textsize"
+            app:selectable="true"
+            app:title="Text Size" />
+        <ListPreference
+            app:allowDividerAbove="true"
+            android:entries="@array/video_autoplay_entries"
+            android:entryValues="@array/video_autoplay_entries"
+            android:icon="@drawable/ic_baseline_play_circle_outline_24"
+            android:selectable="true"
+            android:title="Video Autoplay"
+            app:enabled="true"
+            app:key="videoautoplay" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="DATA MANAGEMENET"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:entries="@array/background_update"
+            android:entryValues="@array/background_update"
+            android:title="Background Update"
+            app:iconSpaceReserved="false"
+            app:key="update"
+            app:summary="Tap to change data settings for daily background updates" />
+        <ListPreference
+            app:allowDividerAbove="true"
+            android:entries="@array/image_download_settings"
+            android:entryValues="@array/image_download_settings"
+            android:title="Image Download Settings"
+            app:iconSpaceReserved="false"
+            app:key="update"
+            app:summary="Tap to change your image download settings" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="SUPPORT"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:selectable="true"
+            app:iconSpaceReserved="false"
+            app:title="Chat with Us" />
+
+        <Preference
+            android:selectable="true"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false"
+            app:title="Send App Feedback" />
+        <Preference
+            android:selectable="true"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false"
+            app:title="ontact News Room" />
+        <Preference
+            android:selectable="true"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false"
+            app:title="Frequently Asked Questions" />
+    </PreferenceCategory>
+</PreferenceScreen>

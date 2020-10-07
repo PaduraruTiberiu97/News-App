@@ -1,0 +1,98 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="text_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+        <item>Jumbo</item>
+    </string-array>
+
+    <string-array name="text_values">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>extra_large</item>
+        <item>jumbo</item>
+    </string-array>
+
+    <string-array name="video_autoplay_entries">
+        <item>Allow some videos to autoplay silently using WiFi or mobile data</item>
+        <item>Allow some videos to autoplay silently using WiFi only</item>
+        <item>Do not automatically play videos</item>
+    </string-array>
+    <string-array name="background_update">
+        <item>WiFi Only</item>
+        <item>Wifi + Data</item>
+        <item>None - Please pull to refresh to manually update the app</item>
+    </string-array>
+    <string-array name="image_download_settings">
+        <item>Automatically pre-download some images for offline reading</item>
+        <item>Do not pre-download images for offline reading</item>
+    </string-array>
+
+    <string-array name="for_you_section_titles">
+        <item>Food</item>
+        <item>Cars</item>
+        <item>Books to read</item>
+        <item>Media</item>
+        <item>Science</item>
+        <item>Sports</item>
+        <item>Culture</item>
+        <item>Movies</item>
+        <item>Fashion &amp; Style</item>
+        <item>Environment</item>
+        <item>Election</item>
+        <item>Health Care</item>
+        <item>America</item>
+        <item>China</item>
+        <item>India</item>
+        <item>California</item>
+        <item>New York</item>
+        <item>United Kingdom</item>
+        <item>Canada</item>
+        <item>Donal Trump</item>
+        <item>Vladimir Putin</item>
+        <item>Angela Merkel</item>
+        <item>Hassan Rouhani</item>
+        <item>International</item>
+
+    </string-array>
+    <integer-array name="for_you_section_images">
+        <item>@drawable/food</item>
+        <item>@drawable/cars</item>
+        <item>@drawable/books</item>
+        <item>@drawable/media</item>
+        <item>@drawable/science</item>
+        <item>@drawable/sports</item>
+        <item>@drawable/culture</item>
+        <item>@drawable/movies</item>
+        <item>@drawable/fashion</item>
+        <item>@drawable/enviroment</item>
+        <item>@drawable/election</item>
+        <item>@drawable/healthcare</item>
+        <item>@drawable/america</item>
+        <item>@drawable/china</item>
+        <item>@drawable/india</item>
+        <item>@drawable/california</item>
+        <item>@drawable/newyork</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/canada</item>
+        <item>@drawable/trump</item>
+        <item>@drawable/putin</item>
+        <item>@drawable/merkel</item>
+        <item>@drawable/rouhani</item>
+        <item>@drawable/international</item>
+
+    </integer-array>
+</resources>

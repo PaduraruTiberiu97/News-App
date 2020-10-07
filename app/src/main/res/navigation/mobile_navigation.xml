@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.newsapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_foryou"
+        android:name="com.example.newsapp.ui.foryou.ForYouFragment"
+        android:label="@string/title_foryou"
+        tools:layout="@layout/fragment_foryou" >
+        <action
+            android:id="@+id/action_navigation_foryou_to_navigation_foryou_loggedin2"
+            app:destination="@id/navigation_foryou_loggedin" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sections"
+        android:name="com.example.newsapp.ui.sections.SectionsFragment"
+        android:label="@string/title_sections"
+        tools:layout="@layout/fragment_sections" />
+
+    <fragment
+        android:id="@+id/navigation_foryou_loggedin"
+        android:name="com.example.newsapp.ui.foryou.ForYouLoggedInFragment"
+        android:label="@string/search_hint"
+        tools:layout="@layout/acrivity_foryou_logged_in">
+        <action
+            android:id="@+id/action_navigation_foryou_loggedin_to_navigation_foryou"
+            app:destination="@id/navigation_foryou" />
+    </fragment>
+
+</navigation>
