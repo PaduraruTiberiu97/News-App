@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
         Log.d("TAG","TEST");
         Log.d("TAG","TEST1");
-
-
     }
 
 
